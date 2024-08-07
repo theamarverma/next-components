@@ -20,19 +20,87 @@ export default function SwiperCard() {
 					pagination={{
 						dynamicBullets: true,
 					}}
-					autoplay={{ delay: 5000, disableOnInteraction: false }}
+					// autoplay={{ delay: 5000, disableOnInteraction: false }}
 					modules={[Pagination, Autoplay]}
 					className="mySwiper"
 				>
-					<SwiperSlide>Slide 1</SwiperSlide>
-					<SwiperSlide>Slide 2</SwiperSlide>
-					<SwiperSlide>Slide 3</SwiperSlide>
-					<SwiperSlide>Slide 4</SwiperSlide>
-					<SwiperSlide>Slide 5</SwiperSlide>
-					<SwiperSlide>Slide 6</SwiperSlide>
-					<SwiperSlide>Slide 7</SwiperSlide>
-					<SwiperSlide>Slide 8</SwiperSlide>
-					<SwiperSlide>Slide 9</SwiperSlide>
+					<SwiperSlide>
+						<div>
+							<h1 className="w-full lg:text-4xl xl:7xl">
+								Live Programs Led by Global Workplace Development Experts{' '}
+							</h1>
+							<h3>
+								Programs by Josei allow you to reforge the performance,
+								resilience and wellbeing of your at scale
+							</h3>
+						</div>
+					</SwiperSlide>
+					<SwiperSlide>
+						<div>
+							<h1 className="w-full lg:text-4xl xl:7xl">
+								Live Programs Led by Global Workplace Development Experts{' '}
+							</h1>
+							<h3>
+								Programs by Josei allow you to reforge the performance,
+								resilience and wellbeing of your at scale
+							</h3>
+						</div>
+					</SwiperSlide>
+					<SwiperSlide>
+						<div>
+							<h1 className="w-full lg:text-4xl xl:7xl">
+								Live Programs Led by Global Workplace Development Experts{' '}
+							</h1>
+							<h3>
+								Programs by Josei allow you to reforge the performance,
+								resilience and wellbeing of your at scale
+							</h3>
+						</div>
+					</SwiperSlide>
+					<SwiperSlide>
+						<div>
+							<h1 className="w-full lg:text-4xl xl:7xl">
+								Live Programs Led by Global Workplace Development Experts{' '}
+							</h1>
+							<h3>
+								Programs by Josei allow you to reforge the performance,
+								resilience and wellbeing of your at scale
+							</h3>
+						</div>
+					</SwiperSlide>
+					<SwiperSlide>
+						<div>
+							<h1 className="w-full lg:text-4xl xl:7xl">
+								Live Programs Led by Global Workplace Development Experts{' '}
+							</h1>
+							<h3>
+								Programs by Josei allow you to reforge the performance,
+								resilience and wellbeing of your at scale
+							</h3>
+						</div>
+					</SwiperSlide>
+					<SwiperSlide>
+						<div>
+							<h1 className="w-full lg:text-4xl xl:7xl">
+								Live Programs Led by Global Workplace Development Experts{' '}
+							</h1>
+							<h3>
+								Programs by Josei allow you to reforge the performance,
+								resilience and wellbeing of your at scale
+							</h3>
+						</div>
+					</SwiperSlide>
+					<SwiperSlide>
+						<div>
+							<h1 className="w-full lg:text-4xl xl:7xl">
+								Live Programs Led by Global Workplace Development Experts{' '}
+							</h1>
+							<h3>
+								Programs by Josei allow you to reforge the performance,
+								resilience and wellbeing of your at scale
+							</h3>
+						</div>
+					</SwiperSlide>
 				</Swiper>
 			</div>
 		</>
