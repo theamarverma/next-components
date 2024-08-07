@@ -41,9 +41,9 @@ body {
 
 /* Default bullet style */
 .swiper-pagination-bullet {
-	width: 5px; /* Default width */
-	height: 5px; /* Default height */
-	background: #00fde4; /* Default color */
+	width: 10px; /* Default width */
+	height: 10px; /* Default height */
+	background: #14e511; /* Default color */
 	transition: width 0.3s, height 0.3s; /* Smooth transition */
 	border-radius: 50%; /* Round bullets */
 	margin: 3px; /* Center align the bullets */
@@ -51,8 +51,8 @@ body {
 
 /* Active bullet style */
 .swiper-pagination-bullet-active {
-	width: 15px; /* Active width */
-	height: 5px; /* Active height */
+	width: 16px; /* Active width */
+	height: 4px; /* Active height */
 	background: #14e511; /* Active color */
 	border-radius: 5px; /* Rounded corners for the active bullet */
 	margin: 6px 0; /* Center align the active bullet */
@@ -60,9 +60,28 @@ body {
 
 /* Additional active style class */
 .swiper-pagination-bullet-active-main {
-	width: 16px; /* Main active width */
-	height: 4px; /* Main active height */
+	width: 64px; /* Main active width */
+	height: 8px; /* Main active height */
 	background: #14e511; /* Main active color */
 	border-radius: 5px; /* Rounded corners for the main active bullet */
 	margin: 6px 0; /* Center align the main active bullet */
+}
+
+.swiper-horizontal
+	> .swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
+.swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+	width: 11% !important;
+	left: 50%;
+	transform: translateX(-50%);
+	white-space: nowrap;
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next {
+	transform: scale(0.66);
+	opacity: unset;
+}
+
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next {
+	transform: scale(0.66);
+	opacity: unset;
+	/* height: fit-content; */
 }

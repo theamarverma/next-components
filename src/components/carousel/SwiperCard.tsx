@@ -57,50 +57,6 @@ export default function SwiperCard() {
 							</h3>
 						</div>
 					</SwiperSlide>
-					<SwiperSlide>
-						<div>
-							<h1 className="w-full lg:text-4xl xl:7xl">
-								Live Programs Led by Global Workplace Development Experts{' '}
-							</h1>
-							<h3>
-								Programs by Josei allow you to reforge the performance,
-								resilience and wellbeing of your at scale
-							</h3>
-						</div>
-					</SwiperSlide>
-					<SwiperSlide>
-						<div>
-							<h1 className="w-full lg:text-4xl xl:7xl">
-								Live Programs Led by Global Workplace Development Experts{' '}
-							</h1>
-							<h3>
-								Programs by Josei allow you to reforge the performance,
-								resilience and wellbeing of your at scale
-							</h3>
-						</div>
-					</SwiperSlide>
-					<SwiperSlide>
-						<div>
-							<h1 className="w-full lg:text-4xl xl:7xl">
-								Live Programs Led by Global Workplace Development Experts{' '}
-							</h1>
-							<h3>
-								Programs by Josei allow you to reforge the performance,
-								resilience and wellbeing of your at scale
-							</h3>
-						</div>
-					</SwiperSlide>
-					<SwiperSlide>
-						<div>
-							<h1 className="w-full lg:text-4xl xl:7xl">
-								Live Programs Led by Global Workplace Development Experts{' '}
-							</h1>
-							<h3>
-								Programs by Josei allow you to reforge the performance,
-								resilience and wellbeing of your at scale
-							</h3>
-						</div>
-					</SwiperSlide>
 				</Swiper>
 			</div>
 		</>
